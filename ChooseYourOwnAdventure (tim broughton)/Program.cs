@@ -40,21 +40,46 @@ namespace ChooseYourOwnAdventure__tim_broughton_
                         else
                         {
                             Console.Clear();
-                            Console.WriteLine("You've met with a terrible fate...\n\n");
+                            Console.WriteLine("You've met with a terrible fate...\nType 'y' to continue looping!");
+                            char mydecision = Console.ReadKey(true).KeyChar;
+
+                            if (mydecision != 'y' && mydecision != 'Y')
+                            {
+                                Console.WriteLine("Goodbye!!");
+                                Console.ReadKey();
+                                break;
+                            }
+                            
                         }
 
                     }
                     else
                     {
                         Console.Clear();
-                        Console.WriteLine("You've met with a terrible fate...\n\n");
+                        Console.WriteLine("You've met with a terrible fate...\nType 'y' to continue looping!");
+                        char mydecision = Console.ReadKey(true).KeyChar;
+
+                        if (mydecision != 'y' && mydecision != 'Y')
+                        {
+                            Console.WriteLine("Goodbye!!");
+                            Console.ReadKey();
+                            break;
+                        }
                     }
 
                 }
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("You've met with a terrible fate...\n\n!");
+                    Console.WriteLine("You've met with a terrible fate...\nType 'y' to continue looping!");
+                    char mydecision = Console.ReadKey(true).KeyChar;
+
+                    if (mydecision != 'y' && mydecision != 'Y')
+                    {
+                        Console.WriteLine("Goodbye!!");
+                        Console.ReadKey();
+                        break;
+                    }
                 }
 
 
