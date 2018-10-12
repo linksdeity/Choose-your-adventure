@@ -40,21 +40,21 @@ namespace ChooseYourOwnAdventure__tim_broughton_
                         else
                         {
                             Console.Clear();
-                            Console.WriteLine("You've met with a terrible fate...\nEnter any key to begin again!");
+                            Console.WriteLine("You've met with a terrible fate...\n\n");
                         }
 
                     }
                     else
                     {
                         Console.Clear();
-                        Console.WriteLine("You've met with a terrible fate...\nEnter any key to begin again!");
+                        Console.WriteLine("You've met with a terrible fate...\n\n");
                     }
 
                 }
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("You've met with a terrible fate...\nEnter any key to begin again!");
+                    Console.WriteLine("You've met with a terrible fate...\n\n!");
                 }
 
 
