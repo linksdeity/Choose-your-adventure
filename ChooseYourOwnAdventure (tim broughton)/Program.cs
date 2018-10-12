@@ -94,7 +94,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
         static bool TimeEygpt()
         {
             Console.WriteLine("The vast sand stretches for miles in every direction.\nNext to you the time machine sits missing several important pieces.\n" +
-                              "You could have sworn when you were here the first time that there was a clear blue tube sticking out of the bits of wire behind the seat...");
+                              "You could have sworn when you were here the first time there was a clear blue tube sticking out of the bits of wire behind the seat...");
             string choice = "";
             string part = "";
             int counter = 0;
@@ -106,7 +106,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
                 while (true)
                 {
                     Console.WriteLine("\n\nWould you like to investigate....\n1. The Sphinx\n2. The Pyramids\n3. The Pharoh's Swimming Pool\n(type the number of youe choice!\n" +
-                                ">>> WARNING: you only have time to try checking 2 of the 3 locations before the time rifts take you back to the start! <<<\n" +
+                                ">>> WARNING: you only have time to try checking 2 of the 3 locations\n After that the time rifts take you back to the start! <<<\n" +
                                 "You CAN visit the same location more than once!");
 
                     choice = Console.ReadLine();
@@ -171,15 +171,15 @@ namespace ChooseYourOwnAdventure__tim_broughton_
 
                     case "3":
                         counter++;
-                        Console.WriteLine("The pharoh seems like a cool dude. Just over some dunes he is having a rager of a party and you just invited yourself." +
-                                          "He is decked out in some radical jewelry, but thinks you look pretty cool yourself. He send one of his wards your way to ask" +
+                        Console.WriteLine("The pharoh seems like a cool dude. Just over some dunes he is having a rager of a party and you just invited yourself.\n" +
+                                          "He is decked out in some radical jewelry, but thinks you look pretty cool yourself. He send one of his wards your way to ask\n" +
                                           "If you would trade one of the buttons on your suit for his round blue jewel on his sceptor.\n'y' to trade!");
 
                         mydecision = Console.ReadKey(true).KeyChar;
 
                         if (mydecision == 'y' || mydecision == 'Y')
                         {
-                            Console.WriteLine("seems like a good deal to me! You give the Pharoh a button and he gives you a round blue jewel, that looks more like a tube up close!" +
+                            Console.WriteLine("seems like a good deal to me! You give the Pharoh a button and he gives you a round blue jewel\n It looks more like a tube up close!\n" +
                                               "\nNo problem though, you make your way back to the time machine with the blue jewel!");
 
                             part = "blue jewel";
@@ -190,8 +190,8 @@ namespace ChooseYourOwnAdventure__tim_broughton_
 
             if (counter >= 2)
             {
-                Console.WriteLine("You tried finding the right object, but you just didn't have enough time! The time machine starts beeping at you, and everything starts to" +
-                                  "shimmer and turn blue! Next time, try and rememmber just what we need!\n");
+                Console.WriteLine("You tried finding the right object, but you just didn't have enough time!\nThe time machine starts beeping at you, and everything starts to" +
+                                  "shimmer and turn blue!\nNext time, try and rememmber just what we need!\n");
                 Console.ReadKey();
                 return false;
             }
@@ -219,7 +219,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
         //--------------------------------------------------------------------------------------------------ROME
         static bool TimeRome()
         {
-            Console.WriteLine("The sand is gone, but not from your shoes! Here there are great stone building and statues, oh and Ceasar is here!" +
+            Console.WriteLine("The sand is gone, but not from your shoes! Here there are great stone building and statues, oh and Ceasar is here!\n" +
                               "You could have sworn when you were here the first time that there was a red round piece sticking out of the front of the machine...");
             string choice = "";
             string part = "";
@@ -232,7 +232,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
                 while (true)
                 {
                     Console.Write("\n\nWould you like to investigate....\n1. The Aquaduct\n2. Caeser\n3. Colluseum\n(type the number of youe choice!\n" +
-                                ">>> WARNING: you only have time to try checking 2 of the 3 locations before the time rifts take you back to the start! <<<\n" +
+                                ">>> WARNING: you only have time to try checking 2 of the 3 locations\n After that the time rifts take you back to the start! <<<\n" +
                                 "You CAN visit the same location more than once!");
 
                     choice = Console.ReadLine();
@@ -271,7 +271,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
 
                     case "2":
                         counter++;
-                        Console.WriteLine("'Yo Ceasar' you shout as you head up to the man himself! He does not seem pleased though. Just back fomr war and bad dreams, etc\n" +
+                        Console.WriteLine("'YO DUDE!' you shout as you head up to the man himself! He does not seem pleased though. Just back from war and bad dreams, etc\n" +
                                           "In an effort to never hear you speak again he stuffs a red sock in your mouth and leaves via chariot.\n" +
                                           "Would you like to take this back to the time machine?\n'y' to take it!");
 
@@ -306,8 +306,8 @@ namespace ChooseYourOwnAdventure__tim_broughton_
 
             if (counter >= 2)
             {
-                Console.WriteLine("You tried finding the right object, but you just didn't have enough time! The time machine starts beeping at you, and everything starts to" +
-                                  "shimmer and turn blue! Next time, try and rememmber just what we need!\n");
+                Console.WriteLine("You tried finding the right object, but you just didn't have enough time!\nThe time machine starts beeping at you, and everything starts to" +
+                                  "shimmer and turn blue!\nNext time, try and rememmber just what we need!\n");
                 Console.ReadKey();
                 return false;
             }
@@ -337,7 +337,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
         //-------------------------------------------------------------------------------------------PREHISTORY
         static bool TimePrehistory()
         {
-            Console.WriteLine("The walls of Rome are gone, replaced by lush jungles!! Vines grow everywhere, and ferns sprout between the trees!" +
+            Console.WriteLine("The walls of Rome are gone, replaced by lush jungles!! Vines grow everywhere, and ferns sprout between the trees!\n" +
                               "You could have sworn when you were here the first time that there was a purple stick sticking out of the back of the machine...");
             string choice = "";
             string part = "";
@@ -349,8 +349,8 @@ namespace ChooseYourOwnAdventure__tim_broughton_
 
                 while (true)
                 {
-                    Console.Write("\n\nWould you like to investigate....\n1. The Sleeping T-Rex\n2.The Hollow Log\n3. The Lake\n(type the number of youe choice!\n" +
-                                ">>> WARNING: you only have time to try checking 2 of the 3 locations before the time rifts take you back to the start! <<<\n" +
+                    Console.Write("\n\nWould you like to investigate....\n1. The Sleeping T-Rex\n2. The Hollow Log\n3. The Lake\n(type the number of youe choice!\n" +
+                                ">>> WARNING: you only have time to try checking 2 of the 3 locations\n After that the time rifts take you back to the start! <<<\n" +
                                 "You CAN visit the same location more than once!");
 
                     choice = Console.ReadLine();
@@ -371,7 +371,7 @@ namespace ChooseYourOwnAdventure__tim_broughton_
                 {
                     case "1":
                         counter++;
-                        Console.WriteLine("Never a better time to see one up close, except maybe next time! You sneak up on the T-Rex and notice something...\n" +
+                        Console.WriteLine("Never a better time to see one up close, except maybe next time!\nYou sneak up on the T-Rex and notice something...\n" +
                                           "It seems to be sleeping next to a bright purple twig?" +
                                           "Would you like to try and take this?\n'y' for yes!");
 
@@ -424,8 +424,8 @@ namespace ChooseYourOwnAdventure__tim_broughton_
 
             if (counter >= 2)
             {
-                Console.WriteLine("You tried finding the right object, but you just didn't have enough time! The time machine starts beeping at you, and everything starts to" +
-                                  "shimmer and turn blue! Next time, try and rememmber just what we need!\n");
+                Console.WriteLine("You tried finding the right object, but you just didn't have enough time!\nThe time machine starts beeping at you, and everything starts to" +
+                                  "shimmer and turn blue!\nNext time, try and rememmber just what we need!\n");
                 Console.ReadKey();
                 return false;
             }
